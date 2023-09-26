@@ -26,6 +26,8 @@ minikube ip # 192.168.49.2:31515
 
 # delete pod
 kubectl delete --filename client-pod.yaml
+kubectl delete deployment client-deployment
+
 
 # call docker inside minikube
 eval $(minikube docker-env)
